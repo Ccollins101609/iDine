@@ -17,6 +17,7 @@ struct ItemDetail: View {
                 Image(item.mainImage)
                     .resizable()
                     .scaledToFit()
+                
                 Text("Photo: \(item.photoCredit)")
                     .padding(4)
                     .background(.black)
